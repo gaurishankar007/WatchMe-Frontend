@@ -20,12 +20,8 @@ Note:- The backend for this flutter project is made in Node.js and the bakcend i
 16. view upload and tagged posts
 
 # Screenshots
-![My Image](screenshots/Login.png)
-![My Image](screenshots/Registration.png)
-![My Image](screenshots/Forgot Password.png)
-![My Image](screenshots/Home Page 1.png)
-![My Image](screenshots/Home Page 2.png)
-![My Image](screenshots/Home Page 3.png)
+![My Image](screenshots/Login.png)![My Image](screenshots/Registration.png)![My Image](screenshots/Forgot Password.png)
+![My Image](screenshots/Home Page 1.png)![My Image](screenshots/Home Page 2.png)![My Image](screenshots/Home Page 3.png)
 ![My Image](screenshots/Home Page Dark Theme.png)
 ![My Image](screenshots/Add Comment.png)
 ![My Image](screenshots/Post Liker.png)
