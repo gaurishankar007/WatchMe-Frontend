@@ -1,5 +1,6 @@
 Watch Me is a simple social media mobile app like instragram.
-Note:- The backend for this flutter project is made in Node.js and the bakcend is in the github reopository named "Memento-WatchMe-Backend".
+# Note
+The backend for this flutter project is made in Node.js and the bakcend is in the github reopository named "Memento-WatchMe-Backend".
 
 # Features
 1. Upload post (1-12 images)
@@ -20,10 +21,25 @@ Note:- The backend for this flutter project is made in Node.js and the bakcend i
 16. view upload and tagged posts
 
 # Screenshots
-![My Image](screenshots/Login.png)!
-![My Image](screenshots/Home Page 1.png)!
-![My Image](screenshots/Home Page Dark Theme.png)
-![My Image](screenshots/Search Users.png)
-![My Image](screenshots/Post Upload Page.png)
+![My Image](screenshots/Login.png)
+![My Image](screenshots/Registration.png)
+![My Image](screenshots/ForgotPassword.png)
+![My Image](screenshots/HomePage1.png)
+![My Image](screenshots/HomePage2.png)
+![My Image](screenshots/HomePage3.png)
+![My Image](screenshots/HomePageDarkTheme.png)
+![My Image](screenshots/AddComment.png)
+![My Image](screenshots/PostLiker.png)
+![My Image](screenshots/PostCommenter.png)
+![My Image](screenshots/Report.png)
+![My Image](screenshots/Setting.png)
+![My Image](screenshots/SearchUsers.png)
+![My Image](screenshots/PostUploadPage.png)
+![My Image](screenshots/PostUploadPage1.png)
+![My Image](screenshots/Notifications.png)
 ![My Image](screenshots/Profil.png)
-![My Image](screenshots/Profle Page Dark Theme 1.png)
+![My Image](screenshots/Profile1.png)
+![My Image](screenshots/ProflePageDarkTheme.png)
+![My Image](screenshots/ProflePageDarkTheme1.png)
+![My Image](screenshots/Watcher.png)
+![My Image](screenshots/Watching.png)
