@@ -1,5 +1,5 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.example.assignment">
+    package="com.example.watch_me">
    <application
         android:label="WatchMe"
         android:icon="@mipmap/ic_launcher">

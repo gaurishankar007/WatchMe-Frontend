@@ -1,6 +1,6 @@
-import 'package:assignment/api/http/http_profile.dart';
-import 'package:assignment/api/model/user.dart';
-import 'package:assignment/screens/riverpod/theme.dart';
+import 'package:watch_me/api/http/http_profile.dart';
+import 'package:watch_me/api/model/user.dart';
+import 'package:watch_me/screens/riverpod/theme.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_holo_date_picker/flutter_holo_date_picker.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';

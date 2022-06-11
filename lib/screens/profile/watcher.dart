@@ -1,8 +1,8 @@
-import 'package:assignment/api/base_urls.dart';
-import 'package:assignment/api/http/http_user.dart';
-import 'package:assignment/api/http/http_watch.dart';
-import 'package:assignment/screens/profile/profile_main_other.dart';
-import 'package:assignment/screens/riverpod/theme.dart';
+import 'package:watch_me/api/base_urls.dart';
+import 'package:watch_me/api/http/http_user.dart';
+import 'package:watch_me/api/http/http_watch.dart';
+import 'package:watch_me/screens/profile/profile_main_other.dart';
+import 'package:watch_me/screens/riverpod/theme.dart';
 import 'package:awesome_notifications/awesome_notifications.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';

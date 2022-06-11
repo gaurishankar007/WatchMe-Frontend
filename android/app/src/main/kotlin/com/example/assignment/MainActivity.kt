@@ -1,4 +1,4 @@
-package com.example.assignment
+package com.example.watch_me
 
 import io.flutter.embedding.android.FlutterActivity
 

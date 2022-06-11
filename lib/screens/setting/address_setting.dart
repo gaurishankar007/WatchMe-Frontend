@@ -1,6 +1,6 @@
-import 'package:assignment/api/http/http_address.dart';
-import 'package:assignment/api/model/user.dart';
-import 'package:assignment/screens/riverpod/theme.dart';
+import 'package:watch_me/api/http/http_address.dart';
+import 'package:watch_me/api/model/user.dart';
+import 'package:watch_me/screens/riverpod/theme.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
 import 'package:form_field_validator/form_field_validator.dart';
@@ -576,7 +576,8 @@ class _AddressSettingState extends State<AddressSetting> {
                           ).show(context);
                         }
 
-                        final responseData = await HttpConnectAddress().addAddress(
+                        final responseData =
+                            await HttpConnectAddress().addAddress(
                           AddressRegister(
                               pCountry: pCountry,
                               pState: pState,

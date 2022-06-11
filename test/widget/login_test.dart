@@ -1,4 +1,4 @@
-import 'package:assignment/screens/login/login.dart';
+import 'package:watch_me/screens/login/login.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
 import 'package:flutter_test/flutter_test.dart';
@@ -11,7 +11,8 @@ void main() {
     final lButton = find.byKey(ValueKey("ButtonLogin"));
 
     // Executing the actual test
-    await tester.pumpWidget(ProviderScope(child: MaterialApp(home: LoginUser())));
+    await tester
+        .pumpWidget(ProviderScope(child: MaterialApp(home: LoginUser())));
     await tester.enterText(uEForm, "gaurisharma358@gmail.com");
     await tester.enterText(pForm, "gauri@254");
     await tester.tap(lButton);

@@ -1,4 +1,4 @@
-import 'package:assignment/api/response/response_post.dart';
+import 'package:watch_me/api/response/response_post.dart';
 import 'package:json_annotation/json_annotation.dart';
 
 part 'response_f_post.g.dart';
@@ -9,7 +9,10 @@ class GetFollowedPosts {
   final List<bool> liked;
   final List<bool> commented;
 
-  GetFollowedPosts({required this.followedPosts, required this.liked, required this.commented});
+  GetFollowedPosts(
+      {required this.followedPosts,
+      required this.liked,
+      required this.commented});
 
   factory GetFollowedPosts.fromJson(Map<String, dynamic> json) =>
       _$GetFollowedPostsFromJson(json);

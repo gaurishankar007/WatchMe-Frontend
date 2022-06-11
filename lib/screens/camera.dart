@@ -1,13 +1,13 @@
 import 'dart:async';
 import 'dart:io';
-import 'package:assignment/api/base_urls.dart';
+import 'package:watch_me/api/base_urls.dart';
 import 'package:flutter/foundation.dart' as foundation;
 
-import 'package:assignment/api/http/http_user.dart';
-import 'package:assignment/api/http/http_watch.dart';
-import 'package:assignment/api/http/http_post.dart';
-import 'package:assignment/api/model/post.dart';
-import 'package:assignment/screens/riverpod/theme.dart';
+import 'package:watch_me/api/http/http_user.dart';
+import 'package:watch_me/api/http/http_watch.dart';
+import 'package:watch_me/api/http/http_post.dart';
+import 'package:watch_me/api/model/post.dart';
+import 'package:watch_me/screens/riverpod/theme.dart';
 import 'package:carousel_slider/carousel_slider.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';

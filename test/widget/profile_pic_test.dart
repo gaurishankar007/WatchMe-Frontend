@@ -1,4 +1,4 @@
-import 'package:assignment/screens/registration/profile_pic.dart';
+import 'package:watch_me/screens/registration/profile_pic.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
 import 'package:flutter_test/flutter_test.dart';

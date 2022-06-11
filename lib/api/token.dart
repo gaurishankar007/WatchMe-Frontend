@@ -1,4 +1,4 @@
-import 'package:assignment/api/http/http_user.dart';
+import 'package:watch_me/api/http/http_user.dart';
 import 'package:shared_preferences/shared_preferences.dart';
 
 class Token {

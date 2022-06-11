@@ -2,7 +2,7 @@ import 'dart:convert';
 import 'dart:developer';
 import 'dart:io';
 
-import 'package:assignment/api/model/user.dart';
+import 'package:watch_me/api/model/user.dart';
 import 'package:http/http.dart' as http;
 import 'package:http/http.dart';
 

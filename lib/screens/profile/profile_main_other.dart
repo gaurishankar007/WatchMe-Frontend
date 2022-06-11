@@ -1,14 +1,14 @@
 import 'dart:async';
 
-import 'package:assignment/api/http/http_address.dart';
-import 'package:assignment/api/http/http_post.dart';
-import 'package:assignment/api/http/http_profile.dart';
-import 'package:assignment/api/http/http_user.dart';
-import 'package:assignment/api/http/http_watch.dart';
-import 'package:assignment/screens/post/post_view.dart';
-import 'package:assignment/screens/profile/watcher_other.dart';
-import 'package:assignment/screens/profile/watching_other.dart';
-import 'package:assignment/screens/riverpod/theme.dart';
+import 'package:watch_me/api/http/http_address.dart';
+import 'package:watch_me/api/http/http_post.dart';
+import 'package:watch_me/api/http/http_profile.dart';
+import 'package:watch_me/api/http/http_user.dart';
+import 'package:watch_me/api/http/http_watch.dart';
+import 'package:watch_me/screens/post/post_view.dart';
+import 'package:watch_me/screens/profile/watcher_other.dart';
+import 'package:watch_me/screens/profile/watching_other.dart';
+import 'package:watch_me/screens/riverpod/theme.dart';
 import 'package:awesome_notifications/awesome_notifications.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';

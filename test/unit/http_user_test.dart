@@ -1,5 +1,5 @@
-import 'package:assignment/api/http/http_user.dart';
-import 'package:assignment/api/model/user.dart';
+import 'package:watch_me/api/http/http_user.dart';
+import 'package:watch_me/api/model/user.dart';
 import 'package:flutter_test/flutter_test.dart';
 import 'package:mockito/annotations.dart';
 import 'package:mockito/mockito.dart';
@@ -58,8 +58,8 @@ void main() {
     });
 
     test("changeEmail", () async {
-      when(_mockHttpUser.changeEmail("nishan23@gmail.com")).thenAnswer(
-          (_) async => {"message": "Your email has been changed."});
+      when(_mockHttpUser.changeEmail("nishan23@gmail.com"))
+          .thenAnswer((_) async => {"message": "Your email has been changed."});
 
       expect(
           await _httpConnectUser.changeEmail("nishan23@gmail.com"), isA<Map>());

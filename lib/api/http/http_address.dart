@@ -2,8 +2,8 @@ import 'dart:convert';
 import 'dart:developer';
 import 'dart:io';
 
-import 'package:assignment/api/http/http_user.dart';
-import 'package:assignment/api/model/user.dart';
+import 'package:watch_me/api/http/http_user.dart';
+import 'package:watch_me/api/model/user.dart';
 import 'package:http/http.dart';
 
 import '../base_urls.dart';

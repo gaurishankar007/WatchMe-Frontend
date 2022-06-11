@@ -1,6 +1,6 @@
 {
-    "name": "assignment",
-    "short_name": "assignment",
+    "name": "watch_me",
+    "short_name": "watch_me",
     "start_url": ".",
     "display": "standalone",
     "background_color": "#0175C2",

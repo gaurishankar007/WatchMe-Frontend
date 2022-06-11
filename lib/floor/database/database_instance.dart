@@ -1,4 +1,4 @@
-import 'package:assignment/floor/database/database.dart';
+import 'package:watch_me/floor/database/database.dart';
 
 class DatabaseInstance {
   static DatabaseInstance? _instance;

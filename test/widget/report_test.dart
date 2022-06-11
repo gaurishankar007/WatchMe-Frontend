@@ -1,4 +1,4 @@
-import 'package:assignment/screens/report.dart';
+import 'package:watch_me/screens/report.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
 import 'package:flutter_test/flutter_test.dart';

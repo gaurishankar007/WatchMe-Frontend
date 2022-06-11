@@ -1,14 +1,14 @@
 import 'dart:async';
 
-import 'package:assignment/api/http/http_address.dart';
-import 'package:assignment/api/http/http_post.dart';
-import 'package:assignment/api/http/http_profile.dart';
-import 'package:assignment/api/http/http_user.dart';
-import 'package:assignment/api/http/http_watch.dart';
-import 'package:assignment/api/base_urls.dart';
-import 'package:assignment/screens/post/post_edit.dart';
-import 'package:assignment/screens/post/post_view.dart';
-import 'package:assignment/screens/riverpod/theme.dart';
+import 'package:watch_me/api/http/http_address.dart';
+import 'package:watch_me/api/http/http_post.dart';
+import 'package:watch_me/api/http/http_profile.dart';
+import 'package:watch_me/api/http/http_user.dart';
+import 'package:watch_me/api/http/http_watch.dart';
+import 'package:watch_me/api/base_urls.dart';
+import 'package:watch_me/screens/post/post_edit.dart';
+import 'package:watch_me/screens/post/post_view.dart';
+import 'package:watch_me/screens/riverpod/theme.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
 import 'package:sensors_plus/sensors_plus.dart';
@@ -1198,7 +1198,7 @@ class _ProfileMainState extends State<ProfileMain> {
                   Navigator.pushNamed(context, "/camera");
                 } else if (navIndex == 3 && activeNav != navIndex) {
                   Navigator.pushNamed(context, "/notification");
-                } 
+                }
               },
             ),
           ),

@@ -1,10 +1,10 @@
 import 'dart:async';
-import 'package:assignment/floor/database/database_instance.dart';
+import 'package:watch_me/floor/database/database_instance.dart';
 import 'package:flutter/foundation.dart' as foundation;
 
-import 'package:assignment/api/http/http_user.dart';
-import 'package:assignment/api/token.dart';
-import 'package:assignment/screens/riverpod/theme.dart';
+import 'package:watch_me/api/http/http_user.dart';
+import 'package:watch_me/api/token.dart';
+import 'package:watch_me/screens/riverpod/theme.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
 import 'package:motion_toast/motion_toast.dart';

@@ -1,6 +1,6 @@
 import 'dart:io';
-import 'package:assignment/api/http/http_user.dart';
-import 'package:assignment/screens/riverpod/theme.dart';
+import 'package:watch_me/api/http/http_user.dart';
+import 'package:watch_me/screens/riverpod/theme.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
 import 'package:image_picker/image_picker.dart';
