@@ -23,17 +23,6 @@ class _LoginUserState extends State<LoginUser> {
   bool passVisibility = false;
 
   @override
-  void initState() {
-    super.initState();
-    Token().getToken().then((value) {
-      if (value.isNotEmpty) {
-        Navigator.of(context)
-            .pushNamedAndRemoveUntil('/home', (Route<dynamic> route) => false);
-      }
-    });
-  }
-
-  @override
   Widget build(BuildContext context) {
     final _screenWidth = MediaQuery.of(context).size.width;
     return Consumer(builder: (context, ref, child) {

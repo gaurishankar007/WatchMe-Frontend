@@ -24,6 +24,9 @@ import 'package:awesome_notifications/awesome_notifications.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
 
+import 'api/http/http_user.dart';
+import 'api/token.dart';
+
 void main() {
   WidgetsFlutterBinding.ensureInitialized();
   AwesomeNotifications().initialize(
@@ -43,11 +46,26 @@ void main() {
     ],
   );
 
-  runApp(ProviderScope(child: WatchMe()));
+  Token().getToken().then((value) {
+    if (value.isNotEmpty) {
+      Token().setToken(value);
+      HttpConnectUser.token = value;
+      runApp(ProviderScope(
+          child: WatchMe(
+        initialPage: "/home",
+      )));
+    } else {
+      runApp(ProviderScope(
+          child: WatchMe(
+        initialPage: "/login",
+      )));
+    }
+  });
 }
 
 class WatchMe extends StatefulWidget {
-  const WatchMe({Key? key}) : super(key: key);
+  final String? initialPage;
+  const WatchMe({Key? key, @required this.initialPage}) : super(key: key);
 
   @override
   _WatchMeState createState() => _WatchMeState();
@@ -61,7 +79,7 @@ class _WatchMeState extends State<WatchMe> {
         fontFamily: "Laila-Medium",
       ),
       debugShowCheckedModeBanner: false,
-      initialRoute: '/login',
+      initialRoute: widget.initialPage,
       routes: {
         '/login': (context) => LoginUser(),
         '/register-user': (context) => RegisterUser(),
